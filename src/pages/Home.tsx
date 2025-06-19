@@ -6,7 +6,8 @@ const Home = () => {
       <h1>To Do</h1>
       <hr />
       <Row>
-        <Col span={6} >2</Col>
+        <Col span={6} >
+        </Col>
         <Col span={18} >3</Col>
 
       </Row>
