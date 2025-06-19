@@ -33,8 +33,8 @@ const ToDoList: React.FC = () => {
       width:20,
       render: (_: any, record: any) => (
         <Space size="middle">
-          <Button>Invite {record.title}</Button>
-          <Button>Delete</Button>
+          <Button size="small">Invite {record.title}</Button>
+          <Button size="small">Delete</Button>
         </Space>
       ),
     },
@@ -43,7 +43,7 @@ const ToDoList: React.FC = () => {
     <div style={{ margin: 5 }}>
       <h3>My To Dos</h3>
       <div style={{ padding: 5 }}>
-        <Table dataSource={dataSource} columns={columns} />
+        <Table size="small" dataSource={dataSource} columns={columns} />
       </div>
     </div>
   );
