@@ -5,7 +5,6 @@ import React from "react";
 import { toDoContext, ToDoContextType } from "../context/toDoContext";
 
 const Home: React.FC = () => {
-  // Property 'toDo' does not exist on type 'ToDoContextType | null'.ts(2339)
 
   const context = React.useContext<ToDoContextType | null>(toDoContext);
   if (!context) {
